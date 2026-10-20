@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Política de Privacidad de SnapSwipe: Photo Cleaner (com.headstar.snapswipe). Información transparente sobre el tratamiento de datos y privacidad.">
+    <meta name="author" content="Headstar">
+    <meta name="robots" content="index, follow">
+    <title>Política de Privacidad | SnapSwipe: Photo Cleaner</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --primary-light: #eff6ff;
+            --text-main: #1f2937;
+            --text-muted: #4b5563;
+            --text-subtle: #6b7280;
+            --bg-page: #f9fafb;
+            --bg-card: #ffffff;
+            --border: #e5e7eb;
+            --border-highlight: #dbeafe;
+            --accent-green: #059669;
+            --accent-green-bg: #ecfdf5;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+            --radius-lg: 16px;
+            --radius-md: 10px;
+            --radius-sm: 6px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 0;
+            margin: 0;
+        }
+
+        header.header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+            color: #ffffff;
+            padding: 50px 20px 40px;
+            text-align: center;
+        }
+
+        .header-content {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        .app-badge {
+            display: inline-block;
+            background-color: rgba(255, 255, 255, 0.18);
+            backdrop-filter: blur(8px);
+            padding: 6px 14px;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+        }
+
+        h1 {
+            font-size: 2.3rem;
+            font-weight: 800;
+            line-height: 1.25;
+            margin-bottom: 12px;
+        }
+
+        .header-meta {
+            font-size: 0.95rem;
+            opacity: 0.9;
+            margin-top: 8px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: -24px auto 60px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background-color: var(--bg-card);
+            border-radius: var(--radius-lg);
+            padding: 36px 32px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            margin-bottom: 24px;
+        }
+
+        .highlight-box {
+            background-color: var(--accent-green-bg);
+            border: 1px solid #a7f3d0;
+            border-left: 5px solid var(--accent-green);
+            padding: 18px 20px;
+            border-radius: var(--radius-md);
+            margin: 20px 0;
+            color: #065f46;
+        }
+
+        .highlight-box strong {
+            display: block;
+            font-size: 1.05rem;
+            margin-bottom: 6px;
+            color: #047857;
+        }
+
+        .info-box {
+            background-color: var(--primary-light);
+            border: 1px solid var(--border-highlight);
+            border-left: 5px solid var(--primary);
+            padding: 18px 20px;
+            border-radius: var(--radius-md);
+            margin: 20px 0;
+            color: #1e40af;
+        }
+
+        h2 {
+            font-size: 1.45rem;
+            font-weight: 700;
+            color: #111827;
+            margin: 32px 0 14px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #374151;
+            margin: 20px 0 8px;
+        }
+
+        p {
+            margin-bottom: 14px;
+            color: var(--text-muted);
+        }
+
+        ul {
+            margin: 10px 0 18px 24px;
+            color: var(--text-muted);
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 12px 14px;
+            text-align: left;
+            border: 1px solid var(--border);
+        }
+
+        th {
+            background-color: #f3f4f6;
+            color: #111827;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        .toc {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: var(--radius-md);
+            padding: 20px 24px;
+            margin-bottom: 28px;
+        }
+
+        .toc-title {
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: #334155;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .toc ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .toc li {
+            margin-bottom: 6px;
+        }
+
+        .toc a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .toc a:hover {
+            color: var(--primary-dark);
+            text-decoration: underline;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: var(--text-subtle);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            background-color: #ffffff;
+        }
+
+        .badge-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 12px 0;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .badge-blue { background: #dbeafe; color: #1e40af; }
+        .badge-green { background: #d1fae5; color: #065f46; }
+        .badge-purple { background: #ede9fe; color: #5b21b6; }
+
+        @media (max-width: 640px) {
+            h1 { font-size: 1.8rem; }
+            .card { padding: 24px 18px; }
+            th, td { padding: 8px 10px; font-size: 0.85rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <span class="app-badge">Política de Privacidad Oficial</span>
+            <h1>SnapSwipe: Photo Cleaner</h1>
+            <p class="header-meta">
+                <strong>Aplicación:</strong> SnapSwipe: Photo Cleaner &bull; 
+                <strong>Paquete:</strong> <code>com.headstar.snapswipe</code> &bull; 
+                <strong>Desarrollador:</strong> Headstar
+            </p>
+            <p class="header-meta">
+                <strong>Última actualización:</strong> 20 de octubre de 2026
+            </p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="card">
+
+            <div class="highlight-box">
+                <strong>🔒 Privacidad Primero: Procesamiento 100% Local</strong>
+                SnapSwipe: Photo Cleaner procesa tus imágenes exclusivamente en tu dispositivo. Tus fotos, capturas de pantalla y archivos multimedia <strong>nunca se suben, sincronizan, transfieren ni almacenan en ningún servidor externo o servicio en la nube</strong>. Tampoco vendemos ni compartimos tus fotos con terceros.
+            </div>
+
+            <!-- Índice de contenidos -->
+            <nav class="toc" aria-label="Índice de contenidos">
+                <div class="toc-title">Índice de Contenidos</div>
+                <ul>
+                    <li><a href="#introduccion">1. Introducción y Datos del Desarrollador</a></li>
+                    <li><a href="#principios">2. Principios Fundamentales y Compromiso de No Venta</a></li>
+                    <li><a href="#datos-recogidos">3. Datos a los que se Accede y Cómo se Utilizan</a></li>
+                    <li><a href="#permisos">4. Permisos Requeridos en el Dispositivo</a></li>
+                    <li><a href="#servicios-terceros">5. Servicios y SDKs de Terceros (Google AdMob / Play Services)</a></li>
+                    <li><a href="#bloqueador-anuncios">6. Verificación de Conectividad y Detección de Bloqueadores</a></li>
+                    <li><a href="#cuentas-eliminacion">7. Política de Conservación y Eliminación de Datos (Sin Cuentas)</a></li>
+                    <li><a href="#seguridad">8. Seguridad en el Tratamiento de Datos</a></li>
+                    <li><a href="#menores">9. Privacidad de Menores</a></li>
+                    <li><a href="#derechos-usuario">10. Derechos del Usuario (RGPD, CCPA y Normativas Internacionales)</a></li>
+                    <li><a href="#cambios">11. Modificaciones de esta Política de Privacidad</a></li>
+                    <li><a href="#contacto">12. Información de Contacto</a></li>
+                </ul>
+            </nav>
+
+            <!-- Sección 1 -->
+            <section id="introduccion">
+                <h2>1. Introducción y Datos del Desarrollador</h2>
+                <p>
+                    La presente Política de Privacidad describe cómo <strong>Headstar</strong> ("nosotros", "nuestro" o "el desarrollador") trata la información al utilizar la aplicación móvil <strong>SnapSwipe: Photo Cleaner</strong> (identificador de paquete de aplicación: <code>com.headstar.snapswipe</code>), disponible a través de Google Play Store.
+                </p>
+                <p>
+                    Nos comprometemos a proteger la privacidad y los datos personales y sensibles de nuestros usuarios de acuerdo con las <strong>Políticas del Programa para Desarrolladores de Google Play</strong>, el <strong>Reglamento General de Protección de Datos (RGPD)</strong> de la Unión Europea, la Ley de Privacidad del Consumidor de California (<strong>CCPA/CPRA</strong>) y demás normativas internacionales de protección de datos vigentes.
+                </p>
+            </section>
+
+            <!-- Sección 2 -->
+            <section id="principios">
+                <h2>2. Principios Fundamentales y Compromiso de No Venta</h2>
+                <div class="badge-list">
+                    <span class="badge badge-green">Cero Venta de Datos</span>
+                    <span class="badge badge-blue">Sin Cuentas de Usuario</span>
+                    <span class="badge badge-purple">Procesamiento Local</span>
+                </div>
+                <ul>
+                    <li><strong>No venta de datos:</strong> No vendemos, alquilamos ni comercializamos datos personales ni sensibles de los usuarios bajo ninguna circunstancia.</li>
+                    <li><strong>Sin vinculación de identificadores persistentes:</strong> No recopilamos ni vinculamos identificadores de hardware persistentes (como IMEI, IMSI, dirección MAC o número de serie de SIM) con identificadores publicitarios reajustables ni con ningún dato personal.</li>
+                    <li><strong>Minimización de datos:</strong> Solo se solicita el acceso estrictamente indispensable para permitirte organizar y limpiar tus fotos y capturas de pantalla de forma rápida e intuitiva.</li>
+                </ul>
+            </section>
+
+            <!-- Sección 3 -->
+            <section id="datos-recogidos">
+                <h2>3. Datos a los que se Accede y Cómo se Utilizan</h2>
+                <p>
+                    A continuación se detallan las categorías de información que interactúan con la aplicación:
+                </p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Categoría de Dato</th>
+                            <th>Tratamiento / Destino</th>
+                            <th>Finalidad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Imágenes y Fotos Locales</strong><br><small>(Capturas de pantalla, fotos)</small></td>
+                            <td><strong>100% Local en el dispositivo.</strong><br>Nunca se envían a servidores ni a terceros.</td>
+                            <td>Visualizar, categorizar y permitir al usuario conservar o eliminar fotos seleccionadas mediante gestos.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Preferencias de la App</strong><br><small>(Carpetas seleccionadas, categorías creadas, estado PRO)</small></td>
+                            <td><strong>100% Local en el dispositivo</strong> (almacenamiento interno privado / SharedPreferences).</td>
+                            <td>Recordar qué carpeta has elegido analizar, las etiquetas/carpetas personalizadas y si tienes activa la versión PRO.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Identificador de Publicidad (AAID)</strong><br><small>(Google Advertising ID)</small></td>
+                            <td>Procesado por el SDK de <strong>Google AdMob</strong> conforme a las políticas de Google.</td>
+                            <td>Mostrar anuncios publicitarios para financiar la versión gratuita, limitar la frecuencia de anuncios y prevenir fraudes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Datos de Diagnóstico y Rendimiento</strong><br><small>(Información del sistema operativo, modelo de dispositivo)</small></td>
+                            <td>Procesados de forma anónima y agregada por los servicios de Google Play.</td>
+                            <td>Detectar caídas (crashes), garantizar la compatibilidad del dispositivo y ofrecer actualizaciones automáticas en Play Store.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Sección 4 -->
+            <section id="permisos">
+                <h2>4. Permisos Requeridos en el Dispositivo</h2>
+                <p>
+                    La aplicación solicita permisos en tiempo de ejecución previa explicación destacada para que tomes una decisión consciente:
+                </p>
+                <ul>
+                    <li>
+                        <strong>Acceso a Carpetas de Fotos / Almacenamiento (Storage Access Framework - SAF / MediaStore):</strong>
+                        Permite que el usuario elija qué carpeta de su galería desea gestionar (por ejemplo, "Screenshots", "DCIM" o "WhatsApp"). La app obtiene permisos de lectura y eliminación únicamente sobre los archivos de dicha carpeta para ejecutar la acción que tú solicites explícitamente (eliminar las fotos que descartes).
+                    </li>
+                    <li>
+                        <strong>Acceso a Internet y Estado de Red (<code>android.permission.INTERNET</code> y <code>ACCESS_NETWORK_STATE</code>):</strong>
+                        Requerido para:
+                        <ol>
+                            <li>Cargar y mostrar anuncios mediante Google AdMob (solo en la versión gratuita).</li>
+                            <li>Comprobar si existen actualizaciones disponibles mediante la API de Google Play In-App Updates.</li>
+                            <li>Comprobar la conectividad de red para evitar falsas alertas del detector de bloqueadores de anuncios.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Sección 5 -->
+            <section id="servicios-terceros">
+                <h2>5. Servicios y SDKs de Terceros</h2>
+                <p>
+                    SnapSwipe incorpora únicamente SDKs reconocidos de Google que cumplen con las directrices de seguridad y privacidad de Google Play:
+                </p>
+                <ul>
+                    <li>
+                        <strong>Google AdMob (Google LLC):</strong> 
+                        Se utiliza para mostrar formatos de publicidad (anuncios de apertura, banners en galería y anuncios intersticiales de transición). AdMob puede recopilar y procesar la dirección IP, el ID de publicidad de Android y datos técnicos del dispositivo para la publicación de anuncios, prevención de fraude y métricas.
+                        <br>
+                        Para más detalles, consulta la <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Política de Publicidad de Google</a> y la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de Privacidad de Google</a>.
+                    </li>
+                    <li>
+                        <strong>Google Play In-App Updates y Google Play Services (Google LLC):</strong>
+                        Se utiliza para avisarte dentro de la aplicación cuando exista una nueva versión oficial de la aplicación lista para descargar e instalar desde Google Play Store.
+                    </li>
+                </ul>
+                <div class="info-box">
+                    <strong>👑 Versión PRO sin publicidad:</strong>
+                    Si adquieres la versión PRO de SnapSwipe, todos los anuncios (de apertura, banners e intersticiales) quedan <strong>completamente deshabilitados</strong> en la app.
+                </div>
+            </section>
+
+            <!-- Sección 6 -->
+            <section id="bloqueador-anuncios">
+                <h2>6. Verificación de Conectividad y Detección de Bloqueadores</h2>
+                <p>
+                    Para los usuarios de la versión gratuita, la aplicación incluye una comprobación técnica local para verificar que los servicios publicitarios no están siendo bloqueados por DNS o VPN privados.
+                </p>
+                <ul>
+                    <li>Esta verificación se realiza <strong>íntegramente en el dispositivo</strong> comprobando la resolución de dominios del proveedor de anuncios y los ajustes de DNS privado de Android.</li>
+                    <li>No se recopila, transmite ni almacena en servidores externos ningún registro sobre los ajustes de red o DNS del usuario.</li>
+                    <li>Si se detecta un bloqueo activo, se ofrece al usuario la opción de ajustar su configuración de red o bien adquirir la versión PRO (sin anuncios).</li>
+                </ul>
+            </section>
+
+            <!-- Sección 7 -->
+            <section id="cuentas-eliminacion">
+                <h2>7. Política de Conservación y Eliminación de Datos (Sin Cuentas)</h2>
+                <h3>Ausencia de cuentas y perfiles remotos</h3>
+                <p>
+                    SnapSwipe: Photo Cleaner <strong>no requiere ni ofrece la creación de cuentas de usuario</strong>. No registramos correos electrónicos, contraseñas, perfiles de usuario ni datos bancarios (las transacciones de Google Play se procesan íntegramente a través de la pasarela segura de Google Play).
+                </p>
+                <h3>Cómo eliminar tus datos</h3>
+                <ul>
+                    <li>
+                        <strong>Eliminación de fotos:</strong> Cuando confirmas la eliminación de fotos o capturas de pantalla desde la app, los archivos se borran de forma inmediata y definitiva del almacenamiento de tu dispositivo a través del sistema operativo Android.
+                    </li>
+                    <li>
+                        <strong>Eliminación de datos y preferencias de la aplicación:</strong> Al no existir servidores externos con datos tuyos, puedes eliminar instantáneamente cualquier dato local (historial de espacio liberado, categorías creadas y permisos de carpeta) mediante cualquiera de las siguientes opciones:
+                        <ol>
+                            <li>Yendo en tu dispositivo a: <em>Ajustes &gt; Aplicaciones &gt; SnapSwipe &gt; Almacenamiento &gt; Borrar datos</em>.</li>
+                            <li>Desinstalando la aplicación de tu dispositivo Android.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Sección 8 -->
+            <section id="seguridad">
+                <h2>8. Seguridad en el Tratamiento de Datos</h2>
+                <p>
+                    Implementamos rigurosas medidas técnicas y organizativas para proteger tus datos:
+                </p>
+                <ul>
+                    <li><strong>Aislamiento de la aplicación (Sandboxing):</strong> SnapSwipe opera dentro de un entorno aislado de Android que impide que otras aplicaciones accedan a su base de datos y preferencias locales.</li>
+                    <li><strong>Comunicaciones Cifradas:</strong> Cualquier transmisión de datos realizada por las bibliotecas de Google (como AdMob o Play Services) se efectúa obligatoriamente bajo protocolos criptográficos modernos y seguros (HTTPS con cifrado TLS).</li>
+                </ul>
+            </section>
+
+            <!-- Sección 9 -->
+            <section id="menores">
+                <h2>9. Privacidad de Menores</h2>
+                <p>
+                    Nuestros servicios no están dirigidos a menores de 13 años (o menores de 16 años en el Espacio Económico Europeo). No recopilamos conscientemente información personal de niños. Si eres padre, madre o tutor legal y tienes conocimiento de que un menor ha proporcionado información personal, ponte en contacto con nosotros para que podamos tomar las medidas pertinentes.
+                </p>
+            </section>
+
+            <!-- Sección 10 -->
+            <section id="derechos-usuario">
+                <h2>10. Derechos del Usuario (RGPD, CCPA y Normativas Internacionales)</h2>
+                <p>
+                    Dependiendo de tu lugar de residencia (incluido el Espacio Económico Europeo, Reino Unido, Suiza y California), posees derechos legales específicos sobre tus datos:
+                </p>
+                <ul>
+                    <li><strong>Derecho de Acceso y Rectificación:</strong> Puedes consultar y modificar tus categorías y carpetas locales directamente en la aplicación.</li>
+                    <li><strong>Derecho de Supresión ("Derecho al olvido"):</strong> Puedes eliminar todos los datos locales borrando el almacenamiento de la app o desinstalándola.</li>
+                    <li><strong>Derecho a no ser objeto de venta de datos (CCPA/CPRA):</strong> No vendemos ni compartimos tu información personal sensible a cambio de contraprestación económica.</li>
+                    <li><strong>Consentimiento para Anuncios Personalizados:</strong> Los usuarios en la Unión Europea pueden gestionar su consentimiento publicitario conforme a las directrices del RGPD y el Marco de Transparencia y Consentimiento (TCF).</li>
+                </ul>
+            </section>
+
+            <!-- Sección 11 -->
+            <section id="cambios">
+                <h2>11. Modificaciones de esta Política de Privacidad</h2>
+                <p>
+                    Podemos actualizar nuestra Política de Privacidad periódicamente para reflejar cambios en las funciones de la aplicación, requisitos técnicos o normativas legales. Cualquier cambio se publicará en esta misma URL pública y se indicará la fecha de "Última actualización" en el encabezado. Te recomendamos revisar esta página periódicamente.
+                </p>
+            </section>
+
+            <!-- Sección 12 -->
+            <section id="contacto">
+                <h2>12. Información de Contacto</h2>
+                <p>
+                    Si tienes dudas, consultas o solicitudes relacionadas con esta Política de Privacidad o con las prácticas de privacidad de SnapSwipe, puedes contactar con nuestro equipo de privacidad a través de:
+                </p>
+                <div class="info-box">
+                    <strong>📧 Correo Electrónico de Contacto:</strong>
+                    <p style="margin: 4px 0 0 0;">
+                        <a href="mailto:support.dm.101@gmail.com" style="font-weight: 600; color: #1e40af;">support.dm.101@gmail.com</a>
+                    </p>
+                    <p style="margin: 6px 0 0 0; font-size: 0.9rem;">
+                        <strong>Desarrollador:</strong> Headstar &bull; <strong>Aplicación:</strong> SnapSwipe: Photo Cleaner
+                    </p>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Headstar. Todos los derechos reservados.</p>
+        <p>SnapSwipe: Photo Cleaner (com.headstar.snapswipe) &bull; Política de Privacidad para Google Play Store</p>
+    </footer>
+
+</body>
+</html>
